@@ -12,7 +12,7 @@ import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/users.js";
 import postRoutes from "./routes/posts.js";
 import { register } from "./controllers/auth.js";
-import { createPost } from "./routes/posts.js";
+import { createPost } from "./controllers/post.js";
 import { verifyToken } from "./middleware/auth.js";
 
 // CONFIGURATIONS
@@ -49,7 +49,7 @@ app.post("/posts", verifyToken, upload.single("picture"), createPost);
 //ROUTES
 app.use("/auth", authRoutes); 
 app.use("/users", userRoutes);
-app.user("/posts", postRoutes);
+app.use("/posts", postRoutes);
 
 //MONGOOSE SETUP
 const PORT = process.env.PORT || 6001;
