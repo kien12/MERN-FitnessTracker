@@ -5,6 +5,7 @@ const HomePage = () => {
   return (  
     <Box>
       <Navbar />
+      <Navbar />
     </Box>
     )
 }
