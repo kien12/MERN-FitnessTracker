@@ -29,7 +29,7 @@ const LoginPage = () => {
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem"}}>
           Welcome this is not twitter! A Platform that does not have a bird!
         </Typography>
-        
+        <Form />
       </Box>
   </Box>
 };
