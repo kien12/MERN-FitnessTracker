@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
-import Form from './Form'
+import Form from "./Form";
 
 const LoginPage = () => {
   const theme = useTheme();
@@ -29,7 +29,7 @@ const LoginPage = () => {
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem"}}>
           Welcome this is not twitter! A Platform that does not have a bird!
         </Typography>
-        <Form/>
+        
       </Box>
   </Box>
 };
