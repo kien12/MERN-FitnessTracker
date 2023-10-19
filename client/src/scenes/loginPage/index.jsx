@@ -16,7 +16,7 @@ const LoginPage = () => {
             fontSize="32px"
             color="primary"
         >
-            Not Twitter
+            Not Twitter!
         </Typography> 
       </Box>
       <Box
